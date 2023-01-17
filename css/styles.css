@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+
+}
+
+nav li{
+	padding-right: 20px;
+	
+	font-size: 25px;
+	font-family: nunito;
+}
+
+nav a{
+	text-decoration: none;
+	color:black ;
+}
+
+nav{
+	width: 100%;
+	background-color: #FFB6C1; 
+    padding: 20px;
+    position:fixed;
+}
+
+h3{
+	font-family: arial rounded mt bold;
+	font-size: 40px;
+	text-align: center;
+	color:  black;
+	margin-top: 20px;
+}
+
+.name {
+	text-align: center;
+	border: none;
+	height: 500px;
+	width: 100%;
+}
+
+h1{
+   font-size: 40px;
+  padding-top: 11%;
+  color: black;
+}
+
+.subject{
+	border: none;
+	margin: 20px;
+	width: 20%;
+	padding: 24px;
+	font-size: 20px;
+	font-family: nunito;
+	border-radius: 30%;
+	background-color: #FFB6C1;
+	color:black;
+	line-height: 30px;
+}
+
+.qual{
+	display: flex;
+	justify-content: center;
+}
+
+body{
+	background-image: url(../images/13.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.softskill{
+	border: none;
+	margin: 50px;
+	width: 20%;
+	padding: 14px;
+	font-size: 20px;
+	font-family: nunito;
+	border-radius: 30%;
+    background-color:#FFB6C1;
+	color:black;
+	text-align: center;
+	line-height: 30px;
+	
+}
+.skills{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.softskill li{
+	list-style-type: none;
+}
+
+.profile{
+	align-content: center;
+	border-color: white;
+	border-radius: 40%;
+}
+
+p{
+	font-size: 20px;
+	padding: 30px;
+	line-height: 40px;
+}
+
+.me{
+    margin-left: 15em;
+} 
+
